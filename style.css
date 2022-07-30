@@ -23,27 +23,28 @@ body{
     text-align: center;
     /* outline: 2px solid red; */
     width: max-content;
-    left: 23%;
+    left: 35%;
     top: 3em;
 }
 
 .begining h1{
-    font-size: 60px;
+    font-size: 50px;
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 5s steps(13) infinite alternate,
-      blink 800ms steps(13) infinite normal;
+    animation: typewriter 4s steps(13) infinite alternate,
+      blink 800ms steps(10) infinite normal;
     border-right: 5px solid #000;
   }
-  @keyframes typewriter {
+
+  /* @keyframes typewriter {
     from {
-      width: 0%;
+      width: 0px;
     }
     to {
-      width: 110%;
+      width: 10px;
     }
-  }
+  } */
   @keyframes blink {
     from {
       border-color: #000;
@@ -708,5 +709,3 @@ input #name2{
     position: relative;
 
 }
-
-.detailsleft
