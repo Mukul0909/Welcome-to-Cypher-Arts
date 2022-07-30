@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d9d9d9;
+
+}
+
+.begin1{
+    margin-bottom: 40%;
+}
+
+.begining{
+    font-size: clamp(1rem, 3vw + 0.5rem, 4rem);
+    font-family: "Oswald";
+    position: relative;
+    text-align: center;
+    /* outline: 2px solid red; */
+    width: max-content;
+    left: 23%;
+    top: 3em;
+}
+
+.begining h1{
+    font-size: 60px;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 5s steps(13) infinite alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid #000;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 110%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: #000;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+.begining h4{
+    font-weight: normal;
+    margin-top: 11%;
+}
+
+#btn{
+    background-color: #000;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-family: "Monteserrat";
+    color: white;
+    border-color: 2px solid white;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+#btn:hover{
+    background-color: #d9d9d9;
+    border-color: #000;
+    color: #000;
+    
+}
+
+.list{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 1%;
+    margin-top: 2.5%;
+}
+
+.list-item{
+    /* position: relative; */
+    padding: 0px 15px;   
+    font-family: "Montserrat";
+}
+
+.list-item:hover{
+    border-bottom: 2px solid black;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+.cypher{
+    position: relative;
+    top: -4em;
+}
+
+.left{
+    background-color: #000;
+    height: 650px;
+    width: 50%;
+    padding-top: 2%;
+    margin-right: 20%;
+}
+
+.logo{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    padding-top: -11px;
+    padding-bottom: 8%;
+    font-family: "Oswald";
+    
+}
+
+.start{
+    font-size: 150px;
+    color: #fff;
+}
+
+.start span{
+    font-size: 60px;
+    position: relative;
+    top: 2px;
+    font-weight: lighter;
+}
+
+.end{
+    font-size: 150px;
+    color: #fff;
+    position: relative;
+    top: 1em;
+    position: relative;
+    top: 80px;
+}
+
+.end span{
+    font-size: 60px;
+    position: relative;
+    top: 2px;
+    font-weight: lighter;
+}
+
+.about-me{
+    color: white;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+.hello{
+    font-family: "Oswald";
+    font-size: 35px;
+    font-style: italic;
+}
+
+.socialicon{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.socialicon img:nth-child(1){
+    display: inline-block;
+    height: 50px;
+    width: 80%;
+    padding: 5px 5px;
+    margin-top: -1.5%;
+    border: 1px solid white;
+    /* position: relative;
+    left: 5%; */
+}
+
+.socialicon a:nth-child(1){ 
+    margin-right: 5%;
+}
+
+.socialicon img:nth-child(2){
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    margin-top: -1.7%;
+    margin-left: 5%;
+    border: 1px solid white;
+    padding: 2.75px 2.75px;
+}
+
+.socialicon a:nth-child(2){ 
+    margin-right: 5%;
+}
+
+.socialicon a:nth-child(1):hover{ 
+    background-color: rgb(146, 144, 1);
+    box-sizing: border-box;
+}
+.socialicon a:nth-child(2):hover{ 
+    background-color: rgb(146, 144, 1);
+    box-sizing: border-box;
+}
+.socialicon a:nth-child(3):hover{ 
+    background-color: rgb(146, 144, 1);
+    box-sizing: border-box;
+}
+.socialicon img:nth-child(3){
+    display: inline-block;
+    height: 9%;
+    width: 9%;
+    margin-top: -1.5%;
+    padding: 0px 10px;
+    margin-left: 3%;
+    border: 1px solid white;
+    padding: 2.5px 2.5px;
+}
+
+.right{
+    display: flex;
+    float: right;
+}
+
+.portrait img{
+    position: relative;
+    border: 1px solid none;
+    border-radius: 100px;
+    top: -38em;
+    left: -1em;
+}
+
+.name{
+    font-family: "Oswald";
+    position: relative;
+    top:-11em;
+    left: -1em;
+    font-size: 40px;
+}
+
+.hrl{
+    display: flex;
+    position: relative;
+    left: -1.5em;
+}
+
+.hrl img:nth-child(2){
+    margin-left: -90px;
+    margin-top: -1%;
+}
+
+.whyme{
+    display: flex;
+}
+
+.whymeleft img{
+    display: inline-block;
+    height: 300px;
+    width: 270%;
+    margin-top: 70%;
+    margin-left: 124%;
+    outline: 2px solid none;
+    border-radius: 60px;
+    box-shadow: -10px 10px  #999999;
+}
+
+.whymeright{
+    outline: 2px solid black;
+    height: 200px;
+    position: relative;
+    top: 103px;
+    left: 55%;
+    background-color: #000;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    z-index: -1;
+    padding: 40px;
+    
+}
+
+.whymeright h2{
+display: inline-block;
+font-size: 25px;
+color: #fff;
+white-space: nowrap;
+overflow: hidden;
+animation: typewriter 6s steps(15) infinite alternate,
+blink 800ms steps(13) infinite normal;
+border-right: 5px solid #000;
+box-shadow: 5px 5px;
+margin-top: 3%;
+margin-left: 3%;
+padding-left: 22px;
+}
+
+@keyframes typewriter {
+from {
+  width: 0%;
+}
+to {
+  width: 104%;
+}
+}
+@keyframes blink {
+from {
+  border-color: #000;
+}
+to {
+  border-color: transparent;
+}
+}
+
+.witness{
+    color: white;
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.whymeright span{
+    color: #ffd700;
+}
+
+.thisone{
+  position: relative;
+  top: -12em;
+} 
+
+.full{
+    background-color: black;
+    width: 60%;
+    height: 400px;
+    position: relative;
+    top: 12em;
+    left: 10em;
+    z-index: -1;
+    border-radius: 20px;
+    
+}
+
+.full1{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: normal;
+    margin-left: 12em;
+}
+
+.full1 span:nth-child(1){
+    color: #ffd700;
+    font-size: 50px;
+}
+
+.full1 span:nth-child(3){
+    color: #ffd700;
+    font-size: 50px;
+}
+
+.full1 span:nth-child(2){
+    font-size: 50px;
+}
+.diffport{
+    display: flex;
+}
+
+.htmlcss{
+    display: flex;
+}
+
+.group img:nth-child(2)
+{   margin-top: 4em;
+    margin-left: 4em;
+     
+    position: absolute; 
+    transform: rotate(15deg);
+}
+
+.group img:nth-child(1)
+{   margin-top: 2em;
+    margin-left: 3em; 
+    transform: rotate(-15deg);
+    position: absolute;
+}
+
+.group{
+    position: relative;
+    left: 15em;
+    outline: 1px solid black;
+    height: 190px; 
+    width: 13em;
+    margin-top: 2em;
+    /* margin-left:20%; */
+    background-color: white;
+    border-radius: 20px; 
+    /* z-index: -1; */
+}
+
+.htmlcss{
+    display: relative;
+    
+}
+
+.hover1{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 190px;
+    width: 13em;
+    border-radius: 20px; 
+    position: relative;
+    z-index: +1;
+    left: 2em;
+    top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    color: white;
+    transition: 0.25s;
+    /* text-decoration: none; */
+}
+
+.hover1 h1{
+    /* opacity: 0; */
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+} 
+
+.hover1:hover{
+    opacity: 1;
+}
+
+.javascript{
+    margin-left: 5%;
+    margin-top:2em;
+}
+
+.js{
+    outline: 1px solid black;
+    height: 190px; 
+    width: 13em;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.js img{
+    position: relative;
+    top: 3em;
+    left: 3em;
+}
+
+.hover2{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 190px;
+    width: 13em;
+    border-radius: 20px; 
+    position: relative;
+    z-index: +1;
+    left: 0em;
+    top: -11.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    color: white;
+    transition: 0.25s;
+     
+}
+
+.hover2 h1{
+    /* opacity: 0; */
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    
+} 
+
+.hover2:hover{
+    opacity: 1;
+}
+
+.proj img{
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin-top: -30.65em;
+    position: relative;
+    left: -17em;
+    border-radius: 20px;
+    box-shadow: 9px 10px #999999;
+}
+
+.blog{
+    margin-top: -8em;
+    margin-left: 2em;
+}
+
+.cards{
+    display: flex;
+}
+
+/* .blogheading{
+    font-family: "Montserrat";
+    
+} */
+
+.blogheading{
+    display: inline-block;
+    font-family: "Montserrat";
+    /* font-size: 25px; */
+    /* color: #fff; */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 5s steps(15) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    border-right: 5px solid #000;
+    box-shadow: 5px 5px;
+    /* margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 22px; */
+    }
+    
+    @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 50%;
+    }
+    }
+    @keyframes blink {
+    from {
+      border-color: #000;
+    }
+    to {
+      border-color: transparent;
+    }
+    }
+
+.card1{
+    background-color: white;
+    outline: 1px solid none;
+    margin-right: 3%;
+    border-radius: 20px;
+    margin-top: 2em;
+    /* padding: ; */
+    padding: 30px 0px;
+    box-shadow: 10px 10px #999999;
+}
+
+.card1 img{
+    border-radius: 20px;
+}
+
+.card1 button{
+    position: relative;
+    left: 35%;
+    top: 1em;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.card1 button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.card2{
+    background-color: white;
+    outline: 1px solid none;
+    margin-right: 3%;
+    border-radius: 20px;
+    margin-top: 2em;
+    /* padding: ; */
+    padding: 30px 0px;
+    box-shadow: 10px 10px #999999;
+}
+
+.card2 img{
+    border-radius: 20px;
+}
+
+.card2 button{
+    position: relative;
+    left: 35%;
+    top: 0.9em;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.card2 button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.card3{
+    background-color: white;
+    outline: 1px solid none;
+    margin-right: 3%;
+    border-radius: 20px;
+    margin-top: 2em;
+    /* padding: ; */
+    padding: 30px 0px;
+    box-shadow: 10px 10px #999999;
+}
+
+.card3 img{
+    border-radius: 20px;
+}
+
+.card3 button{
+    position: relative;
+    left: 35%;
+    top: 0.9em;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.card3 button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.details{
+    position: relative;
+    color: #fff;
+    top: 9em;
+}
+
+.end{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.detailsleft{
+    /* background-color: red; */
+    position: relative;
+    top: -20em;
+    height: 300px;
+    width: 60%;
+}
+
+.detailsleft h4{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+    width:20%;
+    border-bottom: 2px solid white;
+}
+
+input #name2{
+    font-family: "Montserrat";
+    background-color: black;
+}
+
+.btn1 button{
+    background-color: black;
+    border-color: white;
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 2.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn1 button:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.line{
+    background-color: #999999;
+    height: 250px;
+    width: 2px;
+    margin-left: 35em;
+    margin-top: -35em;
+    z-index: 1;
+    position: relative;
+
+}
+
+.detailsleft
