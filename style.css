@@ -32,19 +32,18 @@ body{
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 4s steps(13) infinite alternate,
-      blink 800ms steps(10) infinite normal;
+    animation: typewriter 3s steps(13) infinite alternate,
+      blink 800ms steps(27) infinite normal;
     border-right: 5px solid #000;
   }
-
-  /* @keyframes typewriter {
+  @keyframes typewriter {
     from {
-      width: 0px;
+      width: 0%;
     }
     to {
-      width: 10px;
+      width: 10%;
     }
-  } */
+  }
   @keyframes blink {
     from {
       border-color: #000;
@@ -152,7 +151,9 @@ body{
 .about-me{
     color: white;
     margin-left: 3%;
-    margin-top: 7%;
+    margin-top: -22%;
+    position: relative;
+    z-index: 1;
 }
 
 .hello{
